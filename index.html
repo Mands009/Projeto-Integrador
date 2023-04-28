@@ -7,21 +7,33 @@
     <title>Início</title>
 </head>
 <body>
-    <h1>Cinenac</h1>
+    <header>
+        <h1>Cinenac</h1>
+        
+    </header>
+
     <ul id="navegacao">
         <li><a href>Cartaz</a></li>
         <li><a href>Sala VIP</a></li>
         <li><a href>Promoções</a></li>
         <li><a href>Em breve</a></li>
         <li><a href>Aperitivos</a></li>
+        <li><a href>Usuário</a></li>
     </ul> 
 
     <div id="filmes">
         <img id="mario" src="imgindex/FILME 1.jfif">
         <img id="exorcista" src="imgindex/FILME 3.jfif">
         <img id="jhon" src="imgindex/FILME 6.jfif" width="201px" height="251px">
-        <img id="barbie" src="imgindex/FILME 2.2.jfif"> 
+        <img id="morte" src="imgindex/FILME 4.jpg"> 
     </div>
+
+    <ul id="nomefilmes">
+        <li><a href="">Super Mario Bros. O Filme</a></li>
+        <li><a href="">O Exorcista do Papa</a></li>
+        <li><a href="">John Wick 4: Baba Yaga</a></li>
+        <li><a href="">A Morte do Demônio: A Ascensão</a></li>
+    </ul>
 
 
     <style type="text/css">
@@ -31,6 +43,10 @@
             text-align: center;
         }
 
+        header {
+            display: inline;
+        }
+
         h1 {
             margin-top: 0px;
             color: white;
@@ -38,7 +54,7 @@
             background-color: #3884AF;
         }
 
-        ul {
+        #navegacao {
             font-size: 20px;
             background-color: #3884AF;
             margin: 5px 50px 5px 50px;
@@ -49,6 +65,12 @@
             display: inline-block;
             margin: 45px;
 
+        }
+
+        #nomefilmes {
+            display: inline-block;
+            position: absolute;
+            
         }
 
         a {
