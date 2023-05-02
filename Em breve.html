@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Em Cartaz</title>
+    <title>Em breve</title>
 </head>
 <body>
     <header>
@@ -14,25 +14,33 @@
 
     <ul id="navegacao">
         <li><a href="index.html">Início</a></li>
-        <li><a href>Em Cartaz</a></li>
+        <li><a href>Em Breve</a></li>
     </ul> 
 
     <div id="filmes">
-        <img id="mario" src="imgindex/FILME 1.jfif">
-        <img id="exorcista" src="imgindex/FILME 3.jfif">
-        <img id="jhon" src="imgindex/FILME 6.jfif" width="201px" height="251px">
-        <img id="morte" src="imgindex/FILME 4.jpg"> 
+        <img id="guardioes" src="imgembreve/FILME 4.jfif">
+        <img id="belodesastre" src="imgembreve/FILME 8.jfif">
+        <img id="filmechines" src="imgembreve/FILME 11.jfif">
+
     </div>
 
-    <p>
+    <ul id="nomefilmes">
+        <li id="filme"><a href>Guadiões da Galáxia <br> Vol 3</a></li>
+        <li id="filme"><a href>Belo <br> Desastre</a></li>        
+        <li id="filme"><a href>Os Cavaleiros do Zodíaco –<br> Saint Seiya: O Começo</a></li>
+    </ul>
+    
+    <div id="filmes">
+        <img id="sindicalista" src="imgembreve/FILME 10.jfif">
+        <img id="velozesefuriosos" src="imgembreve/FILME 12.jfif">
+        <img id="homemaranha" src="imgembreve/FILME 5.jfif">
+    </div>
 
     <ul id="nomefilmes">
-        <li id="filme"><a href="ingressomario.html">Super Mario Bros. <br> O Filme</a></li>
-        <li id="filme"><a href="ingressoexorcista.html">O Exorcista do Papa</a></li>
-        <li id="filme"><a href="ingressojohn.html">John Wick 4: <br> Baba Yaga</a></li>
-        <li id="filme"><a href="ingressoamorte.html">A Morte do Demônio: <br> A Ascensão</a></li>
+        <li id="filme"><a href>O Sindicalista</a></li>
+        <li id="filme"><a href>Velozes e Furiosos 10</a></li>        
+        <li id="filme"><a href>Homem-Aranha: <br> Através do Aranhaverso</a></li>
     </ul>
-
 
     <style type="text/css">
         body {
@@ -66,9 +74,11 @@
         }
 
         #nomefilmes {
+            display: inline-block;
             text-align: center;
+            margin-right: 100px;
         }
-        
+
         #filme {
             margin-inline: 150px;
         }
@@ -84,9 +94,7 @@
         
         img {
             margin: 100px;
-            display: auto;
         }
-
     </style>
 </body>
 </html>

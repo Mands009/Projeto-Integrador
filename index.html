@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,12 +13,12 @@
     </header>
 
     <ul id="navegacao">
-        <li><a href="Em Cartaz.html">Em Cartaz</a></li>
+        <li><a href="Em cartaz.html">Em Cartaz</a></li>
         <li><a href>Sala VIP</a></li>
-        <li><a href>Promoções</a></li>
-        <li><a href>Em breve</a></li>
+        <li><a href="Promoções.html">Promoções</a></li>
+        <li><a href="Em breve.html">Em breve</a></li>
         <li><a href>Aperitivos</a></li>
-        <li><a href>Usuário</a></li>
+        <li><a href="Usuário.html">Usuário</a></li>
     </ul> 
 
     <div id="filmes">
@@ -28,13 +28,11 @@
         <img id="morte" src="imgindex/FILME 4.jpg"> 
     </div>
 
-    <p>
-
     <ul id="nomefilmes">
-        <li><a href="ingressomario.html">Super Mario Bros. <br> O Filme</a></li>
-        <li><a href="ingressoexorcista.html">O Exorcista do Papa</a></li>
-        <li><a href="ingressojohn.html">John Wick 4: <br> Baba Yaga</a></li>
-        <li><a href="ingressoamorte.html">A Morte do Demônio: <br> A Ascensão</a></li>
+        <li id="filme"><a href="ingressomario.html">Super Mario Bros. <br> O Filme</a></li>
+        <li id="filme"><a href="ingressoexorcista.html">O Exorcista do Papa</a></li>
+        <li id="filme"><a href="ingressojohn.html">John Wick 4: <br> Baba Yaga</a></li>
+        <li id="filme"><a href="ingressoamorte.html">A Morte do Demônio: <br> A Ascensão</a></li>
     </ul>
 
 
@@ -70,10 +68,11 @@
         }
 
         #nomefilmes {
-            display: auto;
-            position: absolute;
-            margin-right: 300px;
-            margin-top: auto;
+            text-align: center;
+        }
+        
+        #filme {
+            margin-inline: 150px;
         }
 
         a {
@@ -86,10 +85,9 @@
         }
         
         img {
-            margin: 50px;
+            margin: 100px;
             display: auto;
         }
-
 
     </style>
 </body>
